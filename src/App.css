@@ -1,0 +1,20 @@
+:root {
+  --color-primary: #112d4e;
+  --color-secondary: #3f72af;
+  --color-bg: #f9f7f7;
+  --color-shadow: #e5e5e5;
+  --color-border: #c2c2c2;
+  --navbar-height: 4.375rem; /* 70px */
+  --spacing: 2rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-size: 16px;
+  font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-primary);
+
+  background-color: var(--color-bg);
+}
