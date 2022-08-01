@@ -1,6 +1,5 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import DisplayPicture from "../images/dp.jpg";
 
 function Home() {
   return (
@@ -8,7 +7,7 @@ function Home() {
       <div className="flex flex-col md:flex-row max-w-4xl items-center h-auto lg:h-screen mx-auto my-32 lg:my-0 justify-center">
         <img
           className="rounded-full shadow-xl mx-auto h-48 w-48 mb-4 lg:mb-0"
-          src={DisplayPicture}
+          src="https://pbs.twimg.com/profile_images/1549027979044392961/zyd2HJ2V_400x400.jpg"
         />
         <div className="w-full mx-6 lg:mx-0">
           <div className="p-4 lg:p-12 text-center justify-center lg:text-left">
